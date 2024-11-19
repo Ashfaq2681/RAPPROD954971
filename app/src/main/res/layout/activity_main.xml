@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:textColor="@color/blue"
+        android:text="@string/contact_no"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:maxLines="2"
+        android:layout_gravity="center"
+        android:text="@string/text" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:background="@drawable/buttondesign"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:ccp_textSize="14sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:ccp_countryPreference="US,IN,PK,CA,AU,NZ"  />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/grey"
+        android:layout_gravity="center"
+        android:hint="@string/enter_your_number"
+        android:layout_marginTop="10dp">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/t1"
+        android:background="@drawable/buttondesign"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:maxLength="11"
+        android:layout_marginTop="20dp"
+        android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/forget_password"
+        android:textColor="#7C4DFF" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/blue"
+        android:text="@string/signin" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no"
+            android:src="@drawable/google"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/apple"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/not_a_member"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:text="@string/register_now"
+            android:textColor="#0277BD" />
+
+    </LinearLayout>
+</LinearLayout>

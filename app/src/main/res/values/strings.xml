@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AssignmentIntern</string>
+    <string name="enter_country_name">Enter Country Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="country_name">Country Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="text">We have amazing videos that can help you.\n understanding the concepts much easily</string>
+    <string name="contact_no">Contact No</string>
+    <string name="signin">SignIn</string>
+    <string name="forget_password"><u>forget password</u></string>
+    <string name="register_now"><u> Register Now</u></string>
+    <string name="not_a_member">Not a Member </string>
+    <string name="text2">To complete your verification, enter One-Time\n Password (OTP) sent to your registered contact\n number or email.</string>
+    <string name="proceed">Proceed</string>
+    <string name="_2">2</string>
+    <string name="_7">7</string>
+    <string name="_1">1</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_5">5</string>
+    <string name="enter_otp_password">Enter OTP Password</string>
+    <string name="otp_verification">Otp Verification</string>
+    <string name="_345_5678901">345 5678901</string>
+    <string name="enter_your_number">Enter your number</string>
+
+</resources>
